@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2FF4E1F202C1D15004F6715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF4E1E202C1D15004F6715 /* AppDelegate.m */; };
+		A2FF4E27202C1D15004F6715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FF4E26202C1D15004F6715 /* Assets.xcassets */; };
+		A2FF4E2A202C1D15004F6715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FF4E28202C1D15004F6715 /* LaunchScreen.storyboard */; };
+		A2FF4E2D202C1D15004F6715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF4E2C202C1D15004F6715 /* main.m */; };
+		A2FF4E37202C1DAD004F6715 /* ZKLPicturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF4E36202C1DAD004F6715 /* ZKLPicturesView.m */; };
+		A2FF4E3A202C1DBE004F6715 /* ZKLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF4E39202C1DBE004F6715 /* ZKLViewController.m */; };
+		A2FF4E3D202C3EC3004F6715 /* ZKLPictureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FF4E3C202C3EC3004F6715 /* ZKLPictureButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2FF4E1A202C1D15004F6715 /* ZKLMoveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKLMoveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FF4E1D202C1D15004F6715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FF4E1E202C1D15004F6715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FF4E26202C1D15004F6715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FF4E29202C1D15004F6715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2FF4E2B202C1D15004F6715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FF4E2C202C1D15004F6715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FF4E35202C1DAD004F6715 /* ZKLPicturesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKLPicturesView.h; sourceTree = "<group>"; };
+		A2FF4E36202C1DAD004F6715 /* ZKLPicturesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLPicturesView.m; sourceTree = "<group>"; };
+		A2FF4E38202C1DBE004F6715 /* ZKLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKLViewController.h; sourceTree = "<group>"; };
+		A2FF4E39202C1DBE004F6715 /* ZKLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLViewController.m; sourceTree = "<group>"; };
+		A2FF4E3B202C3EC3004F6715 /* ZKLPictureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKLPictureButton.h; sourceTree = "<group>"; };
+		A2FF4E3C202C3EC3004F6715 /* ZKLPictureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLPictureButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FF4E17202C1D15004F6715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2FF4E11202C1D15004F6715 = {
+			isa = PBXGroup;
+			children = (
+				A2FF4E1C202C1D15004F6715 /* ZKLMoveDemo */,
+				A2FF4E1B202C1D15004F6715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FF4E1B202C1D15004F6715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF4E1A202C1D15004F6715 /* ZKLMoveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FF4E1C202C1D15004F6715 /* ZKLMoveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF4EAC203E9C06004F6715 /* Drag */,
+				A2FF4E33202C1D52004F6715 /* AppDelegate */,
+				A2FF4E34202C1D61004F6715 /* Supporting Files */,
+				A2FF4E38202C1DBE004F6715 /* ZKLViewController.h */,
+				A2FF4E39202C1DBE004F6715 /* ZKLViewController.m */,
+			);
+			path = ZKLMoveDemo;
+			sourceTree = "<group>";
+		};
+		A2FF4E33202C1D52004F6715 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF4E1D202C1D15004F6715 /* AppDelegate.h */,
+				A2FF4E1E202C1D15004F6715 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A2FF4E34202C1D61004F6715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF4E26202C1D15004F6715 /* Assets.xcassets */,
+				A2FF4E28202C1D15004F6715 /* LaunchScreen.storyboard */,
+				A2FF4E2B202C1D15004F6715 /* Info.plist */,
+				A2FF4E2C202C1D15004F6715 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FF4EAC203E9C06004F6715 /* Drag */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF4E3B202C3EC3004F6715 /* ZKLPictureButton.h */,
+				A2FF4E3C202C3EC3004F6715 /* ZKLPictureButton.m */,
+				A2FF4E35202C1DAD004F6715 /* ZKLPicturesView.h */,
+				A2FF4E36202C1DAD004F6715 /* ZKLPicturesView.m */,
+			);
+			path = Drag;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FF4E19202C1D15004F6715 /* ZKLMoveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FF4E30202C1D15004F6715 /* Build configuration list for PBXNativeTarget "ZKLMoveDemo" */;
+			buildPhases = (
+				A2FF4E16202C1D15004F6715 /* Sources */,
+				A2FF4E17202C1D15004F6715 /* Frameworks */,
+				A2FF4E18202C1D15004F6715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKLMoveDemo;
+			productName = ZKLMoveDemo;
+			productReference = A2FF4E1A202C1D15004F6715 /* ZKLMoveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FF4E12202C1D15004F6715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zkl;
+				TargetAttributes = {
+					A2FF4E19202C1D15004F6715 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2FF4E15202C1D15004F6715 /* Build configuration list for PBXProject "ZKLMoveDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FF4E11202C1D15004F6715;
+			productRefGroup = A2FF4E1B202C1D15004F6715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FF4E19202C1D15004F6715 /* ZKLMoveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FF4E18202C1D15004F6715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FF4E2A202C1D15004F6715 /* LaunchScreen.storyboard in Resources */,
+				A2FF4E27202C1D15004F6715 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FF4E16202C1D15004F6715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FF4E2D202C1D15004F6715 /* main.m in Sources */,
+				A2FF4E37202C1DAD004F6715 /* ZKLPicturesView.m in Sources */,
+				A2FF4E3D202C3EC3004F6715 /* ZKLPictureButton.m in Sources */,
+				A2FF4E3A202C1DBE004F6715 /* ZKLViewController.m in Sources */,
+				A2FF4E1F202C1D15004F6715 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2FF4E28202C1D15004F6715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FF4E29202C1D15004F6715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FF4E2E202C1D15004F6715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FF4E2F202C1D15004F6715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FF4E31202C1D15004F6715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FC49DARN7;
+				INFOPLIST_FILE = "ZKLMoveDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkl.ZKLMoveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2FF4E32202C1D15004F6715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FC49DARN7;
+				INFOPLIST_FILE = "ZKLMoveDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkl.ZKLMoveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FF4E15202C1D15004F6715 /* Build configuration list for PBXProject "ZKLMoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FF4E2E202C1D15004F6715 /* Debug */,
+				A2FF4E2F202C1D15004F6715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FF4E30202C1D15004F6715 /* Build configuration list for PBXNativeTarget "ZKLMoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FF4E31202C1D15004F6715 /* Debug */,
+				A2FF4E32202C1D15004F6715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FF4E12202C1D15004F6715 /* Project object */;
+}
